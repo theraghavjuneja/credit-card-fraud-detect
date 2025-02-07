@@ -1,0 +1,9 @@
+2025-02-07 22:00:25,578 - Model: XGBoost, Accuracy: 0.9327, Params: {'model': 'XGBoost', 'n_estimators': 450, 'learning_rate': 0.021228898874784102, 'max_depth': 13}
+2025-02-07 22:00:25,674 - Model: KNN, Accuracy: 0.9339, Params: {'model': 'KNN', 'n_neighbors': 5}
+2025-02-07 22:00:25,768 - Model: KNN, Accuracy: 0.9301, Params: {'model': 'KNN', 'n_neighbors': 13}
+2025-02-07 22:00:29,763 - Model: Random Forest, Accuracy: 0.9339, Params: {'model': 'Random Forest', 'n_estimators': 500, 'max_depth': 3}
+2025-02-07 22:00:29,787 - Model: SVM, Accuracy: 0.9466, Params: {'model': 'SVM', 'C': 0.11226285335939322, 'kernel': 'linear'}
+2025-02-07 22:00:29,883 - Model: SVM, Accuracy: 0.9403, Params: {'model': 'SVM', 'C': 3.975880819547733, 'kernel': 'linear'}
+2025-02-07 22:00:29,922 - Model: Decision Tree, Accuracy: 0.9085, Params: {'model': 'Decision Tree', 'max_depth': 15, 'min_samples_split': 9}
+2025-02-07 22:00:32,569 - Model: Random Forest, Accuracy: 0.9403, Params: {'model': 'Random Forest', 'n_estimators': 250, 'max_depth': 10}
+2025-02-07 22:00:33,522 - Model: XGBoost, Accuracy: 0.9377, Params: {'model': 'XGBoost', 'n_estimators': 350, 'learning_rate': 0.11059674240969716, 'max_depth': 10}
