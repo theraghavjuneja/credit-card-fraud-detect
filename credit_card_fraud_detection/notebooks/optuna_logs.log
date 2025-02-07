@@ -350,3 +350,168 @@ XGBoost
 2025-02-07 22:26:41,139 - Best Accuracy: 0.9543
 2025-02-07 22:26:41,139 - Best Params: {'colsample_bytree': 0.7, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 100}
 2025-02-07 22:26:41,139 - ==================================================
+2025-02-07 22:49:01,442 - Model: XGBoost
+Accuracy: 0.9543
+Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.7, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.01, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 10, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95        99
+           1       0.95      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+==================================================
+
+2025-02-07 22:49:01,521 - Model: Logistic Regression
+Accuracy: 0.9543
+Hyperparameters: {'C': 0.1, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95        99
+           1       0.95      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+==================================================
+
+2025-02-07 22:49:01,557 - Model: Decision Tree
+Accuracy: 0.9594
+Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': None, 'splitter': 'best'}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96        99
+           1       0.96      0.96      0.96        98
+
+    accuracy                           0.96       197
+   macro avg       0.96      0.96      0.96       197
+weighted avg       0.96      0.96      0.96       197
+
+==================================================
+
+2025-02-07 22:49:02,709 - Model: Random Forest
+Accuracy: 0.9543
+Hyperparameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 5, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 200, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95        99
+           1       0.95      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+==================================================
+
+2025-02-07 22:49:02,741 - Model: SVM
+Accuracy: 0.9492
+Hyperparameters: {'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 2, 'gamma': 'scale', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.94      0.95        99
+           1       0.94      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+==================================================
+
+2025-02-07 22:49:02,801 - Model: KNN
+Accuracy: 0.9289
+Hyperparameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'manhattan', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 10, 'p': 2, 'weights': 'distance'}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93        99
+           1       0.96      0.90      0.93        98
+
+    accuracy                           0.93       197
+   macro avg       0.93      0.93      0.93       197
+weighted avg       0.93      0.93      0.93       197
+
+==================================================
+
+2025-02-07 22:49:12,837 - Model: Gradient Boosting
+Accuracy: 0.9442
+Hyperparameters: {'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.1, 'loss': 'log_loss', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 500, 'n_iter_no_change': None, 'random_state': None, 'subsample': 0.5, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.93      0.94        99
+           1       0.93      0.96      0.94        98
+
+    accuracy                           0.94       197
+   macro avg       0.94      0.94      0.94       197
+weighted avg       0.94      0.94      0.94       197
+
+==================================================
+
+2025-02-07 22:49:12,917 - Model: AdaBoost (Decision Tree)
+Accuracy: 0.9391
+Hyperparameters: {'algorithm': 'SAMME.R', 'base_estimator': 'deprecated', 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': None, 'estimator__max_features': None, 'estimator__max_leaf_nodes': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__random_state': None, 'estimator__splitter': 'best', 'estimator': DecisionTreeClassifier(), 'learning_rate': 0.1, 'n_estimators': 100, 'random_state': None}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94        99
+           1       0.94      0.94      0.94        98
+
+    accuracy                           0.94       197
+   macro avg       0.94      0.94      0.94       197
+weighted avg       0.94      0.94      0.94       197
+
+==================================================
+
+2025-02-07 22:49:15,789 - Model: Bagging (KNN)
+Accuracy: 0.9391
+Hyperparameters: {'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__algorithm': 'auto', 'estimator__leaf_size': 30, 'estimator__metric': 'minkowski', 'estimator__metric_params': None, 'estimator__n_jobs': None, 'estimator__n_neighbors': 5, 'estimator__p': 2, 'estimator__weights': 'uniform', 'estimator': KNeighborsClassifier(), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.97      0.94        99
+           1       0.97      0.91      0.94        98
+
+    accuracy                           0.94       197
+   macro avg       0.94      0.94      0.94       197
+weighted avg       0.94      0.94      0.94       197
+
+==================================================
+
+2025-02-07 22:49:16,607 - Model: Bagging (SVM)
+Accuracy: 0.9442
+Hyperparameters: {'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__C': 1.0, 'estimator__break_ties': False, 'estimator__cache_size': 200, 'estimator__class_weight': None, 'estimator__coef0': 0.0, 'estimator__decision_function_shape': 'ovr', 'estimator__degree': 3, 'estimator__gamma': 'scale', 'estimator__kernel': 'rbf', 'estimator__max_iter': -1, 'estimator__probability': False, 'estimator__random_state': None, 'estimator__shrinking': True, 'estimator__tol': 0.001, 'estimator__verbose': False, 'estimator': SVC(), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.97      0.95        99
+           1       0.97      0.92      0.94        98
+
+    accuracy                           0.94       197
+   macro avg       0.95      0.94      0.94       197
+weighted avg       0.95      0.94      0.94       197
+
+==================================================
+
+2025-02-07 22:49:18,476 - Model: Bagging (Decision Tree)
+Accuracy: 0.9442
+Hyperparameters: {'base_estimator': 'deprecated', 'bootstrap': True, 'bootstrap_features': False, 'estimator__ccp_alpha': 0.0, 'estimator__class_weight': None, 'estimator__criterion': 'gini', 'estimator__max_depth': None, 'estimator__max_features': None, 'estimator__max_leaf_nodes': None, 'estimator__min_impurity_decrease': 0.0, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2, 'estimator__min_weight_fraction_leaf': 0.0, 'estimator__random_state': None, 'estimator__splitter': 'best', 'estimator': DecisionTreeClassifier(), 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.94      0.94        99
+           1       0.94      0.95      0.94        98
+
+    accuracy                           0.94       197
+   macro avg       0.94      0.94      0.94       197
+weighted avg       0.94      0.94      0.94       197
+
+==================================================
+
