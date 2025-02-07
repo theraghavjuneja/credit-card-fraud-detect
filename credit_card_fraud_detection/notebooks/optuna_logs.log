@@ -7,3 +7,346 @@
 2025-02-07 22:00:29,922 - Model: Decision Tree, Accuracy: 0.9085, Params: {'model': 'Decision Tree', 'max_depth': 15, 'min_samples_split': 9}
 2025-02-07 22:00:32,569 - Model: Random Forest, Accuracy: 0.9403, Params: {'model': 'Random Forest', 'n_estimators': 250, 'max_depth': 10}
 2025-02-07 22:00:33,522 - Model: XGBoost, Accuracy: 0.9377, Params: {'model': 'XGBoost', 'n_estimators': 350, 'learning_rate': 0.11059674240969716, 'max_depth': 10}
+2025-02-07 22:00:54,392 - Model: Gradient Boosting, Accuracy: 0.9098, Params: {'model': 'Gradient Boosting', 'n_estimators': 450, 'learning_rate': 0.010516498623368852, 'max_depth': 8}
+2025-02-07 22:00:54,422 - Model: SVM, Accuracy: 0.9441, Params: {'model': 'SVM', 'C': 0.012265456808191546, 'kernel': 'linear'}
+2025-02-07 22:00:54,453 - Model: SVM, Accuracy: 0.9441, Params: {'model': 'SVM', 'C': 0.0163896269095365, 'kernel': 'linear'}
+2025-02-07 22:00:54,501 - Model: Logistic Regression, Accuracy: 0.9416, Params: {'model': 'Logistic Regression', 'C': 0.017226116374111783}
+2025-02-07 22:00:54,552 - Model: SVM, Accuracy: 0.9047, Params: {'model': 'SVM', 'C': 0.1365924308442883, 'kernel': 'sigmoid'}
+2025-02-07 22:00:54,593 - Model: SVM, Accuracy: 0.9479, Params: {'model': 'SVM', 'C': 0.28817976756855396, 'kernel': 'linear'}
+2025-02-07 22:00:54,637 - Model: SVM, Accuracy: 0.9301, Params: {'model': 'SVM', 'C': 0.6346411166789288, 'kernel': 'rbf'}
+2025-02-07 22:00:54,680 - Model: Decision Tree, Accuracy: 0.9161, Params: {'model': 'Decision Tree', 'max_depth': 3, 'min_samples_split': 2}
+2025-02-07 22:00:54,741 - Model: Logistic Regression, Accuracy: 0.9377, Params: {'model': 'Logistic Regression', 'C': 0.3360518337560148}
+2025-02-07 22:00:59,657 - Model: Gradient Boosting, Accuracy: 0.9213, Params: {'model': 'Gradient Boosting', 'n_estimators': 100, 'learning_rate': 0.2178952084838893, 'max_depth': 6}
+2025-02-07 22:00:59,697 - Model: SVM, Accuracy: 0.9060, Params: {'model': 'SVM', 'C': 20.45522474142347, 'kernel': 'poly'}
+2025-02-07 22:00:59,726 - Model: SVM, Accuracy: 0.9466, Params: {'model': 'SVM', 'C': 0.13591723629598162, 'kernel': 'linear'}
+2025-02-07 22:00:59,755 - Model: SVM, Accuracy: 0.9479, Params: {'model': 'SVM', 'C': 0.10554837471175015, 'kernel': 'linear'}
+2025-02-07 22:00:59,789 - Model: SVM, Accuracy: 0.9479, Params: {'model': 'SVM', 'C': 0.0926205140129891, 'kernel': 'linear'}
+2025-02-07 22:00:59,825 - Model: SVM, Accuracy: 0.9479, Params: {'model': 'SVM', 'C': 0.08021292177393663, 'kernel': 'linear'}
+2025-02-07 22:00:59,858 - Model: SVM, Accuracy: 0.9479, Params: {'model': 'SVM', 'C': 0.056712487571976264, 'kernel': 'linear'}
+2025-02-07 22:00:59,894 - Model: SVM, Accuracy: 0.8831, Params: {'model': 'SVM', 'C': 2.72151337269604, 'kernel': 'sigmoid'}
+2025-02-07 22:00:59,935 - Model: Decision Tree, Accuracy: 0.9136, Params: {'model': 'Decision Tree', 'max_depth': 6, 'min_samples_split': 4}
+2025-02-07 22:01:00,019 - Model: KNN, Accuracy: 0.9263, Params: {'model': 'KNN', 'n_neighbors': 3}
+2025-02-07 22:01:00,631 - Model: Random Forest, Accuracy: 0.9352, Params: {'model': 'Random Forest', 'n_estimators': 50, 'max_depth': 12}
+2025-02-07 22:01:02,027 - Model: XGBoost, Accuracy: 0.9314, Params: {'model': 'XGBoost', 'n_estimators': 200, 'learning_rate': 0.044665666733908885, 'max_depth': 15}
+2025-02-07 22:01:02,085 - Model: Logistic Regression, Accuracy: 0.9441, Params: {'model': 'Logistic Regression', 'C': 0.06696179932721151}
+2025-02-07 22:01:02,118 - Model: SVM, Accuracy: 0.9466, Params: {'model': 'SVM', 'C': 0.039252763591546246, 'kernel': 'linear'}
+2025-02-07 22:01:02,155 - Model: SVM, Accuracy: 0.9466, Params: {'model': 'SVM', 'C': 0.04343128275979923, 'kernel': 'linear'}
+2025-02-07 22:01:02,184 - Model: SVM, Accuracy: 0.9466, Params: {'model': 'SVM', 'C': 0.048414415834204236, 'kernel': 'linear'}
+2025-02-07 22:01:02,263 - Model: KNN, Accuracy: 0.9276, Params: {'model': 'KNN', 'n_neighbors': 15}
+2025-02-07 22:01:08,548 - Model: Gradient Boosting, Accuracy: 0.9238, Params: {'model': 'Gradient Boosting', 'n_estimators': 350, 'learning_rate': 0.2658367637074031, 'max_depth': 6}
+2025-02-07 22:01:08,699 - Model: SVM, Accuracy: 0.9225, Params: {'model': 'SVM', 'C': 0.2354919074542789, 'kernel': 'rbf'}
+2025-02-07 22:01:10,688 - Model: XGBoost, Accuracy: 0.9339, Params: {'model': 'XGBoost', 'n_estimators': 150, 'learning_rate': 0.056944568476372484, 'max_depth': 12}
+2025-02-07 22:01:10,778 - Model: SVM, Accuracy: 0.8603, Params: {'model': 'SVM', 'C': 1.1256766455322629, 'kernel': 'poly'}
+2025-02-07 22:01:15,487 - Model: Random Forest, Accuracy: 0.9403, Params: {'model': 'Random Forest', 'n_estimators': 350, 'max_depth': 8}
+2025-02-07 22:01:15,515 - Model: SVM, Accuracy: 0.9466, Params: {'model': 'SVM', 'C': 0.030702331949141105, 'kernel': 'linear'}
+2025-02-07 22:01:15,560 - Model: SVM, Accuracy: 0.9479, Params: {'model': 'SVM', 'C': 0.2664727909184286, 'kernel': 'linear'}
+2025-02-07 22:01:15,592 - Model: SVM, Accuracy: 0.9479, Params: {'model': 'SVM', 'C': 0.07123600720652445, 'kernel': 'linear'}
+2025-02-07 22:01:15,646 - Model: SVM, Accuracy: 0.9479, Params: {'model': 'SVM', 'C': 0.0819529196302265, 'kernel': 'linear'}
+2025-02-07 22:01:15,678 - Model: SVM, Accuracy: 0.9454, Params: {'model': 'SVM', 'C': 0.029312098479789956, 'kernel': 'linear'}
+2025-02-07 22:01:15,791 - Model: KNN, Accuracy: 0.9327, Params: {'model': 'KNN', 'n_neighbors': 9}
+2025-02-07 22:01:15,868 - Model: SVM, Accuracy: 0.9479, Params: {'model': 'SVM', 'C': 0.09754940647918961, 'kernel': 'linear'}
+2025-02-07 22:01:15,941 - Model: Decision Tree, Accuracy: 0.9161, Params: {'model': 'Decision Tree', 'max_depth': 5, 'min_samples_split': 10}
+2025-02-07 22:01:16,025 - Model: SVM, Accuracy: 0.9454, Params: {'model': 'SVM', 'C': 0.5729109686255894, 'kernel': 'linear'}
+2025-02-07 22:01:16,647 - Model: XGBoost, Accuracy: 0.9174, Params: {'model': 'XGBoost', 'n_estimators': 50, 'learning_rate': 0.010912523021328308, 'max_depth': 13}
+2025-02-07 22:07:09,973 - 
+Training Logistic Regression...
+==================================================
+2025-02-07 22:07:10,010 - Default Logistic Regression Accuracy: 0.9543
+2025-02-07 22:07:10,010 - Classification Report (Default):
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95        99
+           1       0.95      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+2025-02-07 22:07:29,886 - Best Logistic Regression Accuracy: 0.9543
+2025-02-07 22:07:29,886 - Best Hyperparameters: {'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs'}
+2025-02-07 22:07:29,886 - Classification Report (Best):
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95        99
+           1       0.95      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+==================================================
+2025-02-07 22:07:29,887 - 
+Training Decision Tree...
+==================================================
+2025-02-07 22:07:29,937 - Default Decision Tree Accuracy: 0.8985
+2025-02-07 22:07:29,937 - Classification Report (Default):
+              precision    recall  f1-score   support
+
+           0       0.92      0.87      0.90        99
+           1       0.88      0.93      0.90        98
+
+    accuracy                           0.90       197
+   macro avg       0.90      0.90      0.90       197
+weighted avg       0.90      0.90      0.90       197
+
+2025-02-07 22:07:32,026 - Best Decision Tree Accuracy: 0.9594
+2025-02-07 22:07:32,026 - Best Hyperparameters: {'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2025-02-07 22:07:32,026 - Classification Report (Best):
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96        99
+           1       0.96      0.96      0.96        98
+
+    accuracy                           0.96       197
+   macro avg       0.96      0.96      0.96       197
+weighted avg       0.96      0.96      0.96       197
+
+==================================================
+2025-02-07 22:07:32,026 - 
+Training Random Forest...
+==================================================
+2025-02-07 22:07:32,714 - Default Random Forest Accuracy: 0.9492
+2025-02-07 22:07:32,714 - Classification Report (Default):
+              precision    recall  f1-score   support
+
+           0       0.96      0.94      0.95        99
+           1       0.94      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+2025-02-07 22:08:53,322 - 
+Training Logistic Regression...
+==================================================
+2025-02-07 22:08:53,359 - Default Logistic Regression Accuracy: 0.9543
+2025-02-07 22:08:53,359 - Classification Report (Default):
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95        99
+           1       0.95      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+2025-02-07 22:10:18,603 - Best Logistic Regression Accuracy: 0.9543
+2025-02-07 22:10:18,603 - Best Hyperparameters: {'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs'}
+2025-02-07 22:10:18,603 - Classification Report (Best):
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95        99
+           1       0.95      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+==================================================
+2025-02-07 22:10:18,603 - 
+Training Decision Tree...
+==================================================
+2025-02-07 22:10:18,622 - Default Decision Tree Accuracy: 0.9239
+2025-02-07 22:10:18,622 - Classification Report (Default):
+              precision    recall  f1-score   support
+
+           0       0.93      0.92      0.92        99
+           1       0.92      0.93      0.92        98
+
+    accuracy                           0.92       197
+   macro avg       0.92      0.92      0.92       197
+weighted avg       0.92      0.92      0.92       197
+
+2025-02-07 22:10:20,862 - Best Decision Tree Accuracy: 0.9645
+2025-02-07 22:10:20,862 - Best Hyperparameters: {'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2025-02-07 22:10:20,862 - Classification Report (Best):
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.96        99
+           1       0.97      0.96      0.96        98
+
+    accuracy                           0.96       197
+   macro avg       0.96      0.96      0.96       197
+weighted avg       0.96      0.96      0.96       197
+
+==================================================
+2025-02-07 22:10:20,862 - 
+Training Random Forest...
+==================================================
+2025-02-07 22:10:21,485 - Default Random Forest Accuracy: 0.9543
+2025-02-07 22:10:21,485 - Classification Report (Default):
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95        99
+           1       0.96      0.95      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+2025-02-07 22:16:32,410 - Best Random Forest Accuracy: 0.9594
+2025-02-07 22:16:32,410 - Best Hyperparameters: {'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}
+2025-02-07 22:16:32,411 - Classification Report (Best):
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96        99
+           1       0.96      0.96      0.96        98
+
+    accuracy                           0.96       197
+   macro avg       0.96      0.96      0.96       197
+weighted avg       0.96      0.96      0.96       197
+
+==================================================
+2025-02-07 22:16:32,411 - 
+Training SVM...
+==================================================
+2025-02-07 22:16:32,443 - Default SVM Accuracy: 0.9442
+2025-02-07 22:16:32,443 - Classification Report (Default):
+              precision    recall  f1-score   support
+
+           0       0.92      0.97      0.95        99
+           1       0.97      0.92      0.94        98
+
+    accuracy                           0.94       197
+   macro avg       0.95      0.94      0.94       197
+weighted avg       0.95      0.94      0.94       197
+
+2025-02-07 22:16:46,273 - Best SVM Accuracy: 0.9492
+2025-02-07 22:16:46,273 - Best Hyperparameters: {'C': 0.1, 'degree': 2, 'gamma': 'scale', 'kernel': 'linear'}
+2025-02-07 22:16:46,273 - Classification Report (Best):
+              precision    recall  f1-score   support
+
+           0       0.96      0.94      0.95        99
+           1       0.94      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+==================================================
+2025-02-07 22:16:46,273 - 
+Training KNN...
+==================================================
+2025-02-07 22:16:46,333 - Default KNN Accuracy: 0.9289
+2025-02-07 22:16:46,333 - Classification Report (Default):
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93        99
+           1       0.95      0.91      0.93        98
+
+    accuracy                           0.93       197
+   macro avg       0.93      0.93      0.93       197
+weighted avg       0.93      0.93      0.93       197
+
+2025-02-07 22:16:47,047 - Best KNN Accuracy: 0.9289
+2025-02-07 22:16:47,047 - Best Hyperparameters: {'metric': 'manhattan', 'n_neighbors': 10, 'weights': 'distance'}
+2025-02-07 22:16:47,047 - Classification Report (Best):
+              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93        99
+           1       0.96      0.90      0.93        98
+
+    accuracy                           0.93       197
+   macro avg       0.93      0.93      0.93       197
+weighted avg       0.93      0.93      0.93       197
+
+==================================================
+2025-02-07 22:16:47,049 - 
+Training Gradient Boosting...
+==================================================
+2025-02-07 22:16:48,733 - Default Gradient Boosting Accuracy: 0.9391
+2025-02-07 22:16:48,733 - Classification Report (Default):
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94        99
+           1       0.93      0.95      0.94        98
+
+    accuracy                           0.94       197
+   macro avg       0.94      0.94      0.94       197
+weighted avg       0.94      0.94      0.94       197
+
+2025-02-07 22:24:23,252 - Best Gradient Boosting Accuracy: 0.9442
+2025-02-07 22:24:23,252 - Best Hyperparameters: {'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 500, 'subsample': 0.5}
+2025-02-07 22:24:23,252 - Classification Report (Best):
+              precision    recall  f1-score   support
+
+           0       0.96      0.93      0.94        99
+           1       0.93      0.96      0.94        98
+
+    accuracy                           0.94       197
+   macro avg       0.94      0.94      0.94       197
+weighted avg       0.94      0.94      0.94       197
+
+==================================================
+2025-02-07 22:24:23,269 - 
+Training XGBoost...
+==================================================
+2025-02-07 22:24:23,726 - Default XGBoost Accuracy: 0.9492
+2025-02-07 22:24:23,726 - Classification Report (Default):
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95        99
+           1       0.95      0.95      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+2025-02-07 22:26:41,106 - Best XGBoost Accuracy: 0.9543
+2025-02-07 22:26:41,106 - Best Hyperparameters: {'colsample_bytree': 0.7, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 100}
+2025-02-07 22:26:41,106 - Classification Report (Best):
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95        99
+           1       0.95      0.96      0.95        98
+
+    accuracy                           0.95       197
+   macro avg       0.95      0.95      0.95       197
+weighted avg       0.95      0.95      0.95       197
+
+==================================================
+2025-02-07 22:26:41,124 - 
+Final Summary of Model Performances:
+==================================================
+2025-02-07 22:26:41,129 - 
+Logistic Regression
+2025-02-07 22:26:41,131 - Default Accuracy: 0.9543
+2025-02-07 22:26:41,133 - Best Accuracy: 0.9543
+2025-02-07 22:26:41,134 - Best Params: {'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs'}
+2025-02-07 22:26:41,134 - ==================================================
+2025-02-07 22:26:41,134 - 
+Decision Tree
+2025-02-07 22:26:41,134 - Default Accuracy: 0.9239
+2025-02-07 22:26:41,134 - Best Accuracy: 0.9645
+2025-02-07 22:26:41,136 - Best Params: {'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2025-02-07 22:26:41,136 - ==================================================
+2025-02-07 22:26:41,136 - 
+Random Forest
+2025-02-07 22:26:41,136 - Default Accuracy: 0.9543
+2025-02-07 22:26:41,136 - Best Accuracy: 0.9594
+2025-02-07 22:26:41,137 - Best Params: {'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}
+2025-02-07 22:26:41,137 - ==================================================
+2025-02-07 22:26:41,137 - 
+SVM
+2025-02-07 22:26:41,137 - Default Accuracy: 0.9442
+2025-02-07 22:26:41,137 - Best Accuracy: 0.9492
+2025-02-07 22:26:41,137 - Best Params: {'C': 0.1, 'degree': 2, 'gamma': 'scale', 'kernel': 'linear'}
+2025-02-07 22:26:41,137 - ==================================================
+2025-02-07 22:26:41,139 - 
+KNN
+2025-02-07 22:26:41,139 - Default Accuracy: 0.9289
+2025-02-07 22:26:41,139 - Best Accuracy: 0.9289
+2025-02-07 22:26:41,139 - Best Params: {'metric': 'manhattan', 'n_neighbors': 10, 'weights': 'distance'}
+2025-02-07 22:26:41,139 - ==================================================
+2025-02-07 22:26:41,139 - 
+Gradient Boosting
+2025-02-07 22:26:41,139 - Default Accuracy: 0.9391
+2025-02-07 22:26:41,139 - Best Accuracy: 0.9442
+2025-02-07 22:26:41,139 - Best Params: {'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 500, 'subsample': 0.5}
+2025-02-07 22:26:41,139 - ==================================================
+2025-02-07 22:26:41,139 - 
+XGBoost
+2025-02-07 22:26:41,139 - Default Accuracy: 0.9492
+2025-02-07 22:26:41,139 - Best Accuracy: 0.9543
+2025-02-07 22:26:41,139 - Best Params: {'colsample_bytree': 0.7, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 100}
+2025-02-07 22:26:41,139 - ==================================================
